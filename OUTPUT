@@ -1,0 +1,123 @@
+}
+
+Node.js v21.7.1
+PS C:\659\nodeapi> node nodeapi.js
+node:internal/modules/cjs/loader:1145
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\659\nodeapi\nodeapi.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1142:15)
+    at Module._load (node:internal/modules/cjs/loader:983:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)
+    at node:internal/main/run_main_module:28:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v21.7.1
+PS C:\659\nodeapi> node Get.js
+node:internal/modules/cjs/loader:1145
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\659\nodeapi\Get.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1142:15)
+    at Module._load (node:internal/modules/cjs/loader:983:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)
+    at node:internal/main/run_main_module:28:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v21.7.1
+PS C:\659\nodeapi> node app.js
+node:internal/modules/cjs/loader:1145
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\659\nodeapi\app.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1142:15)
+    at Module._load (node:internal/modules/cjs/loader:983:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)
+    at node:internal/main/run_main_module:28:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v21.7.1
+PS C:\659\nodeapi> cd C:\659\nodeapi\
+PS C:\659\nodeapi> node app.js
+node:internal/modules/cjs/loader:1145
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\659\nodeapi\app.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1142:15)
+    at Module._load (node:internal/modules/cjs/loader:983:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)
+    at node:internal/main/run_main_module:28:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v21.7.1
+PS C:\659\nodeapi> cd C:\659\nodeapi\
+PS C:\659\nodeapi> node app.js       
+Server running at http://localhost:3000
+PS C:\659\nodeapi> npm install express body-parser
+
+up to date, audited 67 packages in 3s
+
+13 packages are looking for funding
+  run `npm fund` for details
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Index.html:String) [], CommandNotFoundException
+    + CategoryInfo          : ObjectNotFound: (Index.html:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+
+
+Suggestion [3,General]: The command Index.html was not found, but does exist in the current location. Windows PowerShell does not load commands from the current location by default. If you trust this command, instead type: ".\Index.html". See "get-help about_Command_Precedence" for more details.
+PS C:\659\nodeapi> node app1.js
+Server running at http://localhost:4000
+PS C:\659\nodeapi> node app1.js
+Server running at http://localhost:3000
+{ name: 'John Doe', age: 30 }
+{ name: 'John Doe', age: 30 }
+{ name: 'John Doe', age: 30 }
+PS C:\659\nodeapi> node app1.js
+Server running at http://localhost:3000
+PS C:\659\nodeapi> npm install cors
+
+added 2 packages, and audited 69 packages in 1s
+
+13 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\659\nodeapi> node app1.js    
+Server running at http://localhost:3000
+PS C:\659\nodeapi> 
+ *  History restored 
+PS C:\659> ^C
+PS C:\659> node app1.js
+node:internal/modules/cjs/loader:1145
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\659\app1.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1142:15)
+    at Module._load (node:internal/modules/cjs/loader:983:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)
+    at node:internal/main/run_main_module:28:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v21.7.1
+PS C:\659> cd nodeapi         
+PS C:\659\nodeapi> node app1.js
+Server running at http://localhost:3000
+PS C:\659\nodeapi> 
